@@ -7,9 +7,9 @@ public class Liste {
 
     public ArrayList<Object> liste = new ArrayList<Object>();
 
-    public ArrayList<Object> getListe(){// Constructeur Liste qui renvoie l'array liste à chaque instanciation
+    public ArrayList<Object> getListe(){
         return this.liste;
-    } // C'est un getter par convention on met get
+    } 
 
     public void Premier(){
         if (!liste.isEmpty()){position = 0;}
