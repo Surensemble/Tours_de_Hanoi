@@ -21,7 +21,7 @@ public class PileEntiers extends Pile {
         return this.pile.getListe();
     }
 
-    public int sommet(){
+    public int sommet(){// Renvoie le disque au sommet de la tour
         return (int)pile.liste.get(pile.liste.size()-1);
 
     }
